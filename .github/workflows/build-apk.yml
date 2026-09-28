@@ -16,7 +16,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir extracted
-          unzip -q waraqa-iliktroniya-black-android-project.zip -d extracted
+          unzip -q waraqa-iliktroniya-black-android-project-fixed-text.zip -d extracted
 
       - name: Setup Java
         uses: actions/setup-java@v4
